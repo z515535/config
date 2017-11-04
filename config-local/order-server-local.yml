@@ -1,6 +1,7 @@
 server:
-  port: 9087
+  port: 9088
 
+key: '{cipher}21f7cb08fab4ae2993db498a43ea5ac219ab789795975f48e4fd05bee28dd262'
 eureka:
   client:
     serviceUrl:
