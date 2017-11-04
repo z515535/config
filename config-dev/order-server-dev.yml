@@ -1,0 +1,13 @@
+server:
+  port: 9099
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://wugf:123456@localhost:8761/eureka
+
+#hystrix 查看监控端点 hystrix.stream支持的最大并发
+hystrix:
+  config:
+    stream:
+      maxConcurrentConnections: 10
