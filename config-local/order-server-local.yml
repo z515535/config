@@ -14,3 +14,9 @@ hystrix:
 management:
   security:
     enabled: false
+spring:
+  rabbitmq:
+    host: 39.108.107.103
+    port: 8081
+    username: guest
+    password: guest
