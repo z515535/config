@@ -10,3 +10,6 @@ hystrix:
   config:
     stream:
       maxConcurrentConnections: 10
+management:
+  security:
+    enabled: false
