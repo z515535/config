@@ -1,6 +1,11 @@
 server:
   port: 9088
-
+spring:
+  rabbitmq:
+    host: 39.108.107.103
+    port: 8081
+    username: guest
+    password: guest
 key: '{cipher}1034567538ba79c0f9da02385cc642573cd943b00e0c3146a1e3b34d69f430f0'
 eureka:
   client:
