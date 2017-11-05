@@ -1,6 +1,11 @@
 server:
   port: 9099
-
+spring:
+  rabbitmq:
+    host: 39.108.107.103
+    port: 8081
+    username: guest
+    password: guest
 eureka:
   client:
     serviceUrl:
