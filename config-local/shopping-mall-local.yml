@@ -1,0 +1,18 @@
+#负载均衡配置
+order-server:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+#hystrix 查看监控端点 hystrix.stream支持的最大并发
+hystrix:
+  config:
+    stream:
+      maxConcurrentConnections: 10
+#微服务跟踪平台
+spring
+  zipkin:
+    base-url: http://localhost:9010
+  #数据采集 1为100%，生产环境看需求配置
+  sleuth:
+    sampler:
+      percentage: 1.0
