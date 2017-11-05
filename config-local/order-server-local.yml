@@ -1,5 +1,5 @@
 server:
-  port: 9087
+  port: 9088
 spring:
   rabbitmq:
     host: 39.108.107.103
