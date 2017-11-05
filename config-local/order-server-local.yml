@@ -6,7 +6,7 @@ spring:
     port: 8081
     username: guest
     password: guest
-key: '{cipher}1034567538ba79c0f9da02385cc642573cd943b00e0c3146a1e3b34d69f430f0'
+key: '{cipher}f7bcd9e2e00479908792aa5e6d7c5590d5d89cf6f588fec06606c63aa67508a5'
 eureka:
   client:
     serviceUrl:
