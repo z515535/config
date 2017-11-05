@@ -6,6 +6,13 @@ spring:
     port: 8081
     username: guest
     password: guest
+  #微服务跟踪平台
+  zipkin:
+    base-url: http://localhost:9010
+  #数据采集 1为100%
+  sleuth:
+    sampler:
+      percentage: 1.0
 key: '{cipher}4891f1ba4d936c6fd905699dd5867f30c263f65bfe179b4be5d4820ff8d3b6c8'
 eureka:
   client:
