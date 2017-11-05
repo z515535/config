@@ -11,7 +11,7 @@ hystrix:
     stream:
       maxConcurrentConnections: 10
 #微服务跟踪平台
-spring
+spring:
   zipkin:
     base-url: http://localhost:9010
   #数据采集 1为100%，生产环境看需求配置
