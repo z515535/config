@@ -3,7 +3,7 @@ server:
 spring:
   rabbitmq:
     host: 39.108.107.103
-    port: 8081
+    port: 8083
     username: guest
     password: guest
   #微服务跟踪平台
