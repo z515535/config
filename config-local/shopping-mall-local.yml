@@ -17,3 +17,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://wugf:123456@localhost:8761/eureka
+hystrix:
+  stream:
+    dashboard:
+      intervalInMilliseconds: 2000
