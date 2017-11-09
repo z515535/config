@@ -23,6 +23,7 @@ hystrix:
   config:
     stream:
       maxConcurrentConnections: 10
+#配置为false才能使用spring cloud端点      
 management:
   security:
     enabled: false
